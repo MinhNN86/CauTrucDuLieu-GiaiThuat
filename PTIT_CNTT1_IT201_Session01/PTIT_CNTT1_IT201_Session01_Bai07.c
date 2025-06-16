@@ -34,7 +34,12 @@ int main() {
     if(soSanhCapPtu(arr, n)){
         printf("Cach 1: Co phan tu trung lap\n");
     } else {
-        printf("Cach 2: Khong co phan tu trung lap\n");
+        printf("Cach 1: Khong co phan tu trung lap\n");
+    }
+    if(mangDanhDau(arr, n)){
+        printf("Cach 2: Co phan tu trung lap\n");
+    } else {
+        printf("Cach 2: Khong co phan tu trung lap");
     }
     return 0;
 }
