@@ -6,7 +6,7 @@ int main(){
     printf("Nhap so phan tu trong mang: ");
     scanf("%d", &n);
     if(n <= 0 || n > 100){
-        printf("So phan tu khong hop le\n");
+        printf("So phan tu khong hop le");
         return 1;
     }
     int* arr = (int*)malloc(n * sizeof(int));
@@ -18,13 +18,19 @@ int main(){
         printf("Nhap gia tri arr[%d]: ", i);
         scanf("%d", &arr[i]);
     }
-    int maxValue = arr[0];
-    for(int i = 1; i < n; i++){
-        if(maxValue < arr[i]){
-            maxValue = arr[i];
-        }
+    int position;
+    printf("position: ");
+    scanf("%d", &position);
+    if(position < 0 || position >= n){
+        printf("Vị trí không hợp lệ");
     }
-    printf("Gia tri lon nhat: %d\n", maxValue);
+    int value;
+    printf("value: ");
+    scanf("%d", &value);
+    arr[position] = value;
+    for(int i = 0; i < n; i++){
+        printf("%d ", arr[i]);
+    }
     free(arr);
     return 0;
 }
