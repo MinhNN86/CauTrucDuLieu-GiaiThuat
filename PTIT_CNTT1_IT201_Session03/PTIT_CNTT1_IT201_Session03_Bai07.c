@@ -1,28 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int timMax(int** arr, int rows, int cols) {
-    int max = arr[0][0];
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            if (arr[i][j] > max) {
-                max = arr[i][j];
-            }
-        }
-    }
-    return max;
-}
-int timMin(int** arr, int rows, int cols) {
-    int min = arr[0][0];
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            if (arr[i][j] < min) {
-                min = arr[i][j];
-            }
-        }
-    }
-    return min;
-}
 int main() {
     int rows, cols;
     printf("rows = ");
@@ -41,11 +19,10 @@ int main() {
         return 1;
     }
 
-    int** arr = (int**) malloc(rows * sizeof(int*));
+    int** arr = (int**) malloc (rows * sizeof(int*));
     for (int i = 0; i < rows; i++) {
-        arr[i] = (int*) malloc(cols * sizeof(int));
+        arr[i] = (int*) malloc (cols * sizeof(int));
     }
-
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             printf("arr[%d][%d] = ", i, j);
@@ -53,11 +30,20 @@ int main() {
         }
     }
 
-    int max = timMax(arr, rows, cols);
-    int min = timMin(arr, rows, cols);
+    int k;
+    int tongHangCanTinh = 0;
+    printf("k = ");
+    scanf("%d", &k);
+    if ( k <= 0 || k > rows) {
+        printf("Hang can tinh khong ton tai");
+        return 1;
+    }
+    k--;
+    for (int j = 0; j < cols; j++) {
+        tongHangCanTinh += arr[k][j];
+    }
 
-    printf("max = %d\n", max);
-    printf("min = %d", min);
+    printf("sum = %d", tongHangCanTinh);
 
     for (int i = 0; i < rows; i++) {
         free(arr[i]);
