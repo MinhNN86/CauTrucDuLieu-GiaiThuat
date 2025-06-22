@@ -16,13 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991501f8-a0c0-43c2-a5fa-b57f9d59d74a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai05.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai06.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04_Bai01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04_Bai02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04_Bai03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04_Bai04" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +52,8 @@
     "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai04.c.executor": "Run",
     "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai05.c.executor": "Run",
     "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai08.c.executor": "Run",
     "C/C++ File.test.c.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -79,19 +75,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai06.c">
-    <configuration name="PTIT_CNTT1_IT201_Session04_Bai02.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieu-GiaiThuat" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai02.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai02.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai02.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session04_Bai03.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieu-GiaiThuat" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai03.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai03.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai03.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai08.c">
     <configuration name="PTIT_CNTT1_IT201_Session04_Bai04.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieu-GiaiThuat" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai04.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai04.c">
       <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai04.c" />
       <method v="2">
@@ -110,13 +94,25 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PTIT_CNTT1_IT201_Session04_Bai07.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieu-GiaiThuat" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai07.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai07.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_Bai07.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PTIT_CNTT1_IT201_Session04_Bai08.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieu-GiaiThuat" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai08.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai08.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_Bai08.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai08.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai07.c" />
         <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai06.c" />
         <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai05.c" />
         <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai04.c" />
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai03.c" />
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai02.c" />
       </list>
     </recent_temporary>
   </component>
