@@ -14,6 +14,7 @@ int main(){
 
     if (n <= 0){
         printf("Khong phai so nguyen duong");
+        return 1;
     }else{
         count(n);
     }
