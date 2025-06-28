@@ -17,9 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991501f8-a0c0-43c2-a5fa-b57f9d59d74a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session06/PTIT_CNTT1_IT201_Session06_Bai01.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session06/PTIT_CNTT1_IT201_Session06_Bai02.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session06/PTIT_CNTT1_IT201_Session06_Bai03.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,50 +41,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session02_Bai05.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session03_Bai05.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session03_Bai06.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session03_Bai07.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai01.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai02.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai03.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai04.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai05.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai06.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai07.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session04_Bai08.c.executor&quot;: &quot;Debug&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai01.c.executor&quot;: &quot;Debug&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai02.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai03.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai04.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai05.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai06.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session05_Bai07.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session06_Bai01.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.PTIT_CNTT1_IT201_Session06_Bai02.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.test.c.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nguyennhatminh/Documents/file code/CauTrucDuLieu-GiaiThuat&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.PTIT_CNTT1_IT201_Session02_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session03_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session03_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session03_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai01.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai03.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai08.c.executor": "Debug",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai01.c.executor": "Debug",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai03.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session05_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session06_Bai01.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session06_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session06_Bai03.c.executor": "Run",
+    "C/C++ File.test.c.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/nguyennhatminh/Documents/file code/CauTrucDuLieu-GiaiThuat",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session05" />
@@ -151,7 +149,7 @@
       <workItem from="1750865058614" duration="208000" />
       <workItem from="1750865311349" duration="11822000" />
       <workItem from="1750997683872" duration="7143000" />
-      <workItem from="1751011763866" duration="2251000" />
+      <workItem from="1751011763866" duration="4395000" />
     </task>
     <servers />
   </component>
