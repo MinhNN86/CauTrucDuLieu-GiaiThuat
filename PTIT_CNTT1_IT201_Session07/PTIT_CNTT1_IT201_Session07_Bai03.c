@@ -5,7 +5,7 @@ int main() {
     printf("Nhap so luong phan tu: ");
     scanf("%d", &n);
 
-    if (n <= 0) {
+    if (n <= 0 || n > 1000) {
         printf("Input khong hop le");
         return 1;
     }
