@@ -82,6 +82,48 @@ Node* insertAt(Node* head, int data, int index) {
     return head;
 }
 
+Node* removeHead(Node* head) {
+    if (head == NULL) return NULL;
+
+    Node* temp = head;
+    head = head-> next;
+    free(temp);
+    return head;
+}
+
+Node* removeLast(Node* head) {
+    if (head == NULL) return NULL;
+    Node* current = head;
+    while (current->next->next != NULL) {
+        current = current->next;
+    }
+    Node* removeNode = current->next;
+    current->next = NULL;
+    free(removeNode);
+    return head;
+}
+
+Node* removeAt(Node* head, int index) {
+    if (index < 0 || index >= getLength(head)) {
+        printf("index is not valid\n");
+        return head;
+    }
+    if (index == 0) return removeHead(head);
+    if (index == getLength(head) -1) {
+        return removeLast(head);
+    }
+    Node* current = head;
+    for (int i = 0; i < index - 1; i++) {
+        current = current -> next;
+    }
+    Node* removeNode = current-> next;
+    Node* next = removeNode-> next;
+    current-> next = next;
+    free(removeNode);
+    return head;
+}
+
+
 int main() {
     Node* head = createNode(10);
     Node* node2 = createNode(20);
@@ -96,9 +138,9 @@ int main() {
     node4->next = node5;
     node5->next = node6;
 
-    Node* findNode = getNode(head, 4);
-    printf("%d \n", findNode->data);
-    head = insertAt(head, 199, 3);
+    // Node* findNode = getNode(head, 4);
+    // printf("%d \n", findNode->data);
+    // head = removeAt(head, 1);
     printList(head);
 
 
