@@ -15,6 +15,28 @@ Node* createNode(int data) {
   return node;
 }
 
+Node* removeHead(Node* head) {
+  if (head == NULL) {
+    return NULL;
+  }
+  Node* temp = head;
+  head = head -> next;
+  if (head != NULL) {
+    head -> prev = NULL;
+  }
+  free(temp);
+  return head;
+}
+
+void printNode(Node* head) {
+  Node* current = head;
+  while (current != NULL) {
+    printf("%d <-> ", current->data);
+    current = current -> next;
+  }
+  printf("NULL\n");
+}
+
 int main() {
   Node* head = createNode(1);
   Node* node2 = createNode(2);
@@ -30,6 +52,10 @@ int main() {
   node4 -> next = node5;
   node5 -> prev = node4;
   node5 -> next = NULL;
+
+
+  head = removeHead(head);
+  printNode(head);
 
   return 0;
 }
