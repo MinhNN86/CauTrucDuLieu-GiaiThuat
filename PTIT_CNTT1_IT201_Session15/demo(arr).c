@@ -32,10 +32,11 @@ void enQueue(Queue* q, int value) {
 int deQueue(Queue* q) {
     if (isEmpty(q)) {
         printf("Queue is empty\n");
-        int value = q->data[q->front];
-        q->front++;
-        return value;
+        return -1;
     }
+    int value = q->data[q->front];
+    q->front++;
+    return value;
 }
 
 int frontValue(Queue* q) {
