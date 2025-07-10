@@ -84,7 +84,7 @@ int main() {
     printQueue(q);
 
     int valueDelete = deQueue(q);
-    if (valueDelete) {
+    if (valueDelete != -1) {
         printf("%d\n", valueDelete);
     }
 
