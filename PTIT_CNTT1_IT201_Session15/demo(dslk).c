@@ -11,9 +11,15 @@ typedef struct Queue {
     Node* rear;
 } Queue;
 
-void initQueue(Queue* q) {
+Queue* createQueue() {
+    Queue* q = (Queue*)malloc(sizeof(Queue));
+    if (!q) {
+        printf("Loi cap phat bo nho");
+        exit(1);
+    }
     q->front = NULL;
     q->rear = NULL;
+    return q;
 }
 
 int isEmpty(Queue* q) {
@@ -69,30 +75,29 @@ void printQueue(Queue* q) {
 }
 
 int main() {
-    Queue q;
-    initQueue(&q);
+    Queue* q = createQueue();
 
     // Thêm phần tử
-    enQueue(&q, 10);
-    enQueue(&q, 20);
-    enQueue(&q, 30);
+    enQueue(q, 10);
+    enQueue(q, 20);
+    enQueue(q, 30);
 
     // In queue
-    printQueue(&q);  // Output: Queue = { 10 20 30 }
+    printQueue(q);  // Output: Queue = { 10 20 30 }
 
     // Lấy phần tử ra
-    printf("deQueue: %d\n", deQueue(&q));  // 10
-    printf("deQueue: %d\n", deQueue(&q));  // 20
+    printf("deQueue: %d\n", deQueue(q));  // 10
+    printf("deQueue: %d\n", deQueue(q));  // 20
 
     // In lại
-    printQueue(&q);  // Output: Queue = { 30 }
+    printQueue(q);  // Output: Queue = { 30 }
 
     // Lấy tiếp
-    printf("deQueue: %d\n", deQueue(&q));  // 30
+    printf("deQueue: %d\n", deQueue(q));  // 30
 
     // Rỗng rồi
-    printQueue(&q);  // Queue is empty
-    printf("deQueue: %d\n", deQueue(&q));  // Queue is empty -1
+    printQueue(q);  // Queue is empty
+    printf("deQueue: %d\n", deQueue(q));  // Queue is empty -1
 
     return 0;
 }
