@@ -59,19 +59,16 @@ void printQueue(Queue *q) {
     }
 }
 
-void deQueue(Queue *q) {
+void printDataQueue(Queue* q) {
     if (isEmpty(q)) {
-        printf("queue is empty");
+        printf("Queue is empty");
         return;
     }
-    Node* temp = q->front;
-    q->front = q->front->next;
-
-    if (q->front == NULL) {
-        q->rear = NULL;
+    Node* current = q->front;
+    while (current != NULL) {
+        printf("%d\n", current->data);
+        current = current -> next;
     }
-
-    free(temp);
 }
 
 int main() {
@@ -82,12 +79,7 @@ int main() {
     enQueue(q, 5);
 
     printQueue(q);
-    if (isEmpty(q)) {
-        printf("Queue is empty");
-        return 1;
-    }
-    deQueue(q);
-    printQueue(q);
+    printDataQueue(q);
 
     return 0;
 }

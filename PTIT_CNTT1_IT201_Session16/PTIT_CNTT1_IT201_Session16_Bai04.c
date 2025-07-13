@@ -59,19 +59,9 @@ void printQueue(Queue *q) {
     }
 }
 
-void deQueue(Queue *q) {
-    if (isEmpty(q)) {
-        printf("queue is empty");
-        return;
-    }
+int front(Queue *q) {
     Node* temp = q->front;
-    q->front = q->front->next;
-
-    if (q->front == NULL) {
-        q->rear = NULL;
-    }
-
-    free(temp);
+    return temp->data;
 }
 
 int main() {
@@ -83,11 +73,10 @@ int main() {
 
     printQueue(q);
     if (isEmpty(q)) {
-        printf("Queue is empty");
-        return 1;
+        printf("empty queue");
+        return 0;
     }
-    deQueue(q);
-    printQueue(q);
+    printf("%d", front(q));
 
     return 0;
 }
