@@ -45,7 +45,8 @@ void postorderDFS(Node* root) {
 #define MAX 100
 typedef struct Queue {
     Node* data[MAX];
-    int front, rear;
+    int front;
+    int rear;
 } Queue;
 
 void initQueue(Queue *q) {
@@ -56,17 +57,18 @@ int isEmpty(Queue *q) {
     return q->front == q->rear;
 }
 
+int isFull(Queue *q) {
+    return q->rear == MAX;
+}
+
 void enqueue(Queue *q, Node* node) {
-    if ((q->rear + 1) % MAX == q->front) return; // full
-    q->data[q->rear] = node;
-    q->rear = (q->rear + 1) % MAX;
+    if (isFull(q)) return;
+    q->data[q->rear++] = node;
 }
 
 Node* dequeue(Queue *q) {
     if (isEmpty(q)) return NULL;
-    Node* temp = q->data[q->front];
-    q->front = (q->front + 1) % MAX;
-    return temp;
+    return q->data[q->front++];
 }
 
 // Duyệt Level-order (theo tầng)
