@@ -22,17 +22,92 @@ void preorderDFS(Node* root) {
     preorderDFS(root->right);
 }
 
+void inorderDFS(Node* root) {
+    if (root == NULL) return;
+    inorderDFS(root->left);
+    printf("%d ", root->data);
+    inorderDFS(root->right);
+}
+
+void postorderDFS(Node* root) {
+    if (root == NULL) return;
+    postorderDFS(root->left);
+    postorderDFS(root->right);
+    printf("%d ", root->data);
+}
+
+#define MAX 100
+typedef struct Queue {
+    Node* data[MAX];
+    int front;
+    int rear;
+} Queue;
+
+void initQueue(Queue *q) {
+    q->front = q->rear = 0;
+}
+
+int isEmpty(Queue *q) {
+    return q->front == q->rear;
+}
+
+int isFull(Queue *q) {
+    return q->rear == MAX;
+}
+
+void enqueue(Queue *q, Node* node) {
+    if (isFull(q)) return;
+    q->data[q->rear++] = node;
+}
+
+Node* dequeue(Queue *q) {
+    if (isEmpty(q)) return NULL;
+    return q->data[q->front++];
+}
+
+void levelOrder(Node* root) {
+    if (root == NULL) return;
+
+    Queue q;
+    initQueue(&q);
+    enqueue(&q, root);
+
+    while (!isEmpty(&q)) {
+        Node* current = dequeue(&q);
+        printf("%d ", current->data);
+
+        if (current->left != NULL)
+            enqueue(&q, current->left);
+        if (current->right != NULL)
+            enqueue(&q, current->right);
+    }
+}
+
 int main() {
-    Node* root = createNode(2);
-    Node* node1 = createNode(3);
-    Node* node2 = createNode(4);
-    Node* node3 = createNode(5);
+    Node *root = createNode(2);
+    Node *node1 = createNode(3);
+    Node *node2 = createNode(4);
+    Node *node3 = createNode(5);
 
     root->left = node1;
     root->right = node2;
     node1->left = node3;
 
+    printf("Preorder: ");
     preorderDFS(root);
+    printf("\n");
+
+    printf("Inorder: ");
+    inorderDFS(root);
+    printf("\n");
+
+    printf("Postorder: ");
+    postorderDFS(root);
+    printf("\n");
+
+    printf("Level-order: ");
+    levelOrder(root);
+    printf("\n");
 
     return 0;
 }
