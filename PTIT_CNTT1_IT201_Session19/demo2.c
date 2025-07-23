@@ -137,7 +137,6 @@ void freeTree(TreeNode *root)
 
 int main()
 {
-    // 🌳 Cây mẫu siêu dễ thương:
     //         1
     //       /   \
     //      2     3
