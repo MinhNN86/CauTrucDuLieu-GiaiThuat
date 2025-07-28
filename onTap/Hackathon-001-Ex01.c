@@ -270,6 +270,9 @@ int main() {
             case 8:
                 printf("Tam biet");
                 return 0;
+            default:
+                printf("Lua chon khong hop le");
+                break;
         }
     }
 }
