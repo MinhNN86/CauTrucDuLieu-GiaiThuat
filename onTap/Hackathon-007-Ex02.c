@@ -67,7 +67,7 @@ int main() {
         printf("5. Thoat\n");
         printf("Lua chon: ");
         scanf("%d", &choice);
-        getchar(); // Xóa ký tự Enter
+        getchar();
 
         if (choice == 1) {
             Operation newOp;

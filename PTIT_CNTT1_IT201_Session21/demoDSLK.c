@@ -56,7 +56,7 @@ void DFSUtil(Graph *graph, int src, int *visited) {
     visited[src] = 1;
     //B2: In dinh src ra
     printf("%d ", src);
-    //B3: Su dung vong lap de kiehm tra tat ca duong di tu din src
+    //B3: Su dung vong lap de kiem tra tat ca duong di tu dinh src
     for (int i = 0; i < graph->V; i++) {
         //B4: Kiem tra co duong den dinh tiep theo
         // va dinh do chua tung duoc duyet
